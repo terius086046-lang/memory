@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "project_id": "P001",
+      "client_name": "미정",
+      "project_type": "Residential",
+      "status": "Planning",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

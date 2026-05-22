@@ -1,0 +1,74 @@
+# 💻 Developer (Lead Engineer) 개인 메모리
+
+_Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._
+
+## 학습 기록
+
+- [2026-05-20] 간단한 벽돌게임의 구체적인 규칙(게임 목표, 승리 조건)과 구현할 기술 스택(언어, 엔진)에 대한 요구사항을 먼저 확인하라. → 산출물 sessions/2026-05-20T16-08/developer.md
+- [2026-05-20] 새롭게 정의될 버전 3의 게임 규칙에 대한 요구사항을 명확히 할 수 있도록, 디자인 및 스토리 방향에 대한 초기 가이드라인을 기다리세요. → 산출물 sessions/2026-05-20T16-14/developer.md
+- [2026-05-21] Business에서 확정된 핵심 KPI(MAU 65%, 전환율 30%)를 추적할 수 있는 측정 이벤트 및 데이터베이스 구조 설계를 Phase 1 목표에 따라 즉시 시작하라. → 산출물 sessions/2026-05-21T04-10/developer.md
+- [2026-05-21] Business에서 확정된 핵심 KPI(MAU 65%, 전환율 30%)를 추적할 수 있는 측정 이벤트 및 데이터베이스 스키마 설계를 기반으로, 최소 기능 제품(MVP) 환경에서 사용자 여정 추적 시스템 구축을 위한 초기 코드를 작성하고 API 엔드포인트 정의를 시작하라. → 산출물 sessions/2026-05-21T04-25/developer.md
+- [2026-05-21] Business가 확정한 핵심 KPI(MAU 65%, 전환율 30%)를 추적하기 위해, 온보딩 과정의 이탈률 및 참여도를 기록할 수 있는 측정 이벤트와 데이터베이스 스키마 설계를 최종 보강하라. → 산출물 sessions/2026-05-21T04-40/developer.md
+- [2026-05-21] Business가 확정한 핵심 KPI(MAU 65%, 전환율 30%)를 추적하기 위해 설계된 측정 이벤트 및 데이터베이스 스키마(`user_sessions`, 이벤트 로그 테이블)를 MVP 환경에 즉시 구현하고 사용자 여정 추적 시스템 구축을 시작하라. → 산출물 sessions/2026-05-21T04-55/developer.md
+- [2026-05-21] Business가 확정한 KPI 측정 프레임워크(`user_sessions`, 이벤트 로그 테이블)를 기반으로, 사용자 여정 추적 시스템의 핵심 API 엔드포인트 및 데이터 기록 로직을 MVP 환경에 즉시 구현하여 Designer에게 제공할 수 있도록 준비하라. → 산출물 sessions/2026-05-21T05-10/developer.md
+- [2026-05-21] 웹 또는 앱 환경에서 파일 업로드(도면, 이미지)를 처리하고, AI 모델에 데이터를 입력하여 견적 결과를 생성하며, 최종 결과물을 API 형태로 제공할 수 있는 데이터 파이프라인과 최소 기능 제품(MVP) 아키텍처의 초기 설계안을 제시하라 → 산출물 sessions/2026-05-21T05-12/developer.md
+- [2026-05-21] Business가 확정한 핵심 KPI 측정 프레임워크(`user_sessions`, `event_log_table` 기반)에 따라, A/B 테스트 변수(A/B 그룹)의 이벤트 추적 로직이 데이터베이스에 정확히 기록되도록 검증하고 API를 준비하라. → 산출물 sessions/2026-05-21T05-55/developer.md
+- [2026-05-21] Business가 확정한 A/B 테스트 변수에 따라, 데이터 흐름(이벤트 추적 로직)이 시각화되는 방식에 대한 최종 기술 구현 가능성을 검토하고 와이어프레임에 반영할 수 있도록 준비하라. → 산출물 sessions/2026-05-21T06-40/developer.md
+- [2026-05-21] Business가 확정한 A/B 테스트 변수 추적 로직(event_log_table에 ab_test_group 필드 포함)을 기반으로 실제 이벤트 로그 기록 로직 구현 및 API 엔드포인트 준비를 즉시 시작하라. → 산출물 sessions/2026-05-21T06-55/developer.md
+- [2026-05-21] Business가 확정한 A/B 테스트 변수 추적 로직(`event_log_table`에 `ab_test_group` 필드 포함)를 기반으로, 실제 이벤트 로그 기록 로직 구현 및 API 엔드포인트 준비를 완료하고 최종 데이터 흐름을 확인하라. → 산출물 sessions/2026-05-21T07-10/developer.md
+- [2026-05-21] Designer가 제공할 최종 디자인 명세와 Business가 확정한 핵심 KPI(MAU, 전환율 추적 흐름)를 기반으로, 데이터 흐름과 시각화 로직을 반영한 대시보드 개발 초기 단계의 기술 구현 계획을 수립하라. → 산출물 sessions/2026-05-21T08-25/developer.md
+- [2026-05-21] Business가 확정한 시스템 구현 로드맵(A/B 테스트 결과 통합)에 따라, 데이터 흐름 및 KPI를 반영한 대시보드 백엔드(Python 로직 및 DB 연결 테스트) 구현을 즉시 시작하라. → 산출물 sessions/2026-05-21T08-40/developer.md
+- [2026-05-21] event_log_table에서 A/B 테스트 그룹별 전환율 및 유지율 데이터(ab_test_group 포함)를 추출하고, Researcher가 분석을 시작할 수 있도록 정리하여 제공하라. → 산출물 sessions/2026-05-21T09-55/developer.md
+- [2026-05-21] 데이터 도착 시점에 맞춰 시스템 구현 로드맵에 반영할 데이터 흐름 및 KPI 추적 구조(DB 스키마 초안)를 미리 준비하고, 분석 결과를 즉시 반영할 수 있는 초기 개발 환경 설정을 대기 상태로 유지하라. → 산출물 sessions/2026-05-21T13-25/developer.md
+- [2026-05-21] A/B 테스트 데이터가 도착했을 때 시스템 구현 로드맵에 반영할 데이터 흐름 및 KPI 추적 구조(DB 스키마 초안)를 미리 준비하고, 분석 결과를 즉시 반영할 수 있는 초기 개발 환경 설정을 대기 상태로 유지한다. → 산출물 sessions/2026-05-21T13-55/developer.md
+- [2026-05-21] 확정된 DB 스키마 및 KPI 매핑(이전 단계에서 확정됨)을 기반으로 데이터 수신 시 시스템 구현 로드맵에 즉시 반영할 수 있는 개발 환경 설정을 대기 상태로 유지하라. → 산출물 sessions/2026-05-21T14-10/developer.md
+- [2026-05-21] 분석 결과에 기반하여 최종 결정된 가격 및 온보딩 구조와 KPI 추적 로직을 반영한 시스템 구현 로드맵을 즉시 업데이트하라. → 산출물 sessions/2026-05-21T14-25/developer.md
+- [2026-05-21] 확정된 가격/온보딩 구조와 KPI 추적 로직을 반영한 시스템 구현 로드맵(Phase 1, 2)에 명시된 DB 스키마 변경 및 트래킹 모듈 개발 환경 설정을 즉시 실행할 준비를 완료하고 대기 상태를 유지합니다. → 산출물 sessions/2026-05-21T14-40/developer.md
+- [2026-05-21] event_log_table 데이터 수신에 대비하여 정의된 DB 스키마 기반의 KPI 추적 모듈 개발 환경 설정을 최종 점검하고 즉시 실행할 준비를 완료하라. → 산출물 sessions/2026-05-21T14-55/developer.md
+- [2026-05-21] 최종 가격/온보딩 구조 및 KPI 추적 로직 반영에 필요한 DB 스키마 및 개발 환경 설정 준비를 완벽히 유지하라. → 산출물 sessions/2026-05-21T15-55/developer.md
+- [2026-05-21] Business가 확정한 최종 가격/온보딩 구조를 반영하여, KPI 추적 로직과 연동된 시스템 구현 로드맵(Phase 1~3)의 자동화 트리거 및 DB 스키마 업데이트 계획을 즉시 실행할 준비를 완료하라. → 산출물 sessions/2026-05-21T16-10/developer.md
+- [2026-05-21] Business가 확정한 최종 가격/온보딩 구조와 KPI 추적 로직을 반영하여, `event_log_table`에 대한 자동화 트리거(INSERT Trigger) 설정을 즉시 실행할 준비를 완료하고 구현을 시작하라. → 산출물 sessions/2026-05-21T16-25/developer.md
+- [2026-05-21] Business가 확정한 최종 가격/온보딩 구조를 기반으로, KPI 추적 로직과 연동된 시스템 구현 로드맵(Phase 1~3)의 자동화 트리거 및 DB 스키마 업데이트 계획을 즉시 실행할 준비를 완료하라. → 산출물 sessions/2026-05-21T16-55/developer.md
+- [2026-05-21] Business가 확정한 DB 스키마 및 Trigger 명세를 기반으로, 시스템 구현 로드맵(Phase 2: 핵심 기능 구현)의 첫 단계 개발 작업을 즉시 착수하고 진행 상황을 보고하라. → 산출물 sessions/2026-05-21T17-10/developer.md
+- [2026-05-21] Business의 검증 결과를 기반으로, M1 단계(`event_log_table` 스키마 및 Trigger) 구현을 위한 최종 명세와 다음 단계(M2) 개발 계획을 확정하라. → 산출물 sessions/2026-05-21T17-25/developer.md
+- [2026-05-21] M1 단계(`event_log_table` 스키마 및 Trigger)에 기반하여, KPI 연동 자동 검증 로직(Trigger 2)을 반영한 시스템 구축을 즉시 시작하고, Step 1인 API Endpoint(`POST /api/track_event`) 구현 계획을 수립하라. → 산출물 sessions/2026-05-21T17-40/developer.md
+- [2026-05-21] M2-Phase 1 목표인 데이터 무결성 자동 검증 로직(Trigger 2) 구현을 즉시 착수하고, KPI 연동 자동 검증 로직의 시스템 안정성을 확보하라. → 산출물 sessions/2026-05-21T17-55/developer.md
+- [2026-05-21] M1 단계(`event_log_table`)에 정의된 필드(`ab_test_group`, `price_tier` 등)를 반영하여, KPI 연동 자동 검증 로직(Trigger 2)을 즉시 구현하고 시스템 안정성을 확보하라. → 산출물 sessions/2026-05-21T18-10/developer.md
+- [2026-05-21] M1 목표인 A/B 테스트 그룹(`ab_test_group`) 및 가격 티어(`price_tier`)가 온보딩 흐름과 정확하게 연동되는지 최종 확인하고, 이벤트 트래킹 로직 안정화를 완료하라. → 산출물 sessions/2026-05-21T19-25/developer.md
+- [2026-05-21] Researcher가 제시한 데이터 무결성 검증 로직과 Writer의 '권위 프레임워크' 구조를 연동하는 자동 검증 로직 구현을 최우선으로 착수하여 시스템 안정성을 확보하라. → 산출물 sessions/2026-05-21T19-55/developer.md
+- [2026-05-21] T2P CR 30% 목표 달성을 위해 `event_log_table` 기반의 실시간 KPI 추적 및 자동 검증 로직을 완성하여 데이터 무결성을 확보하라. → 산출물 sessions/2026-05-21T20-40/developer.md
+- [2026-05-21] 구현된 자동 검증 로직(PostgreSQL 트리거 및 API 레벨 검증)의 시스템 안정성 테스트 계획을 수립하라. → 산출물 sessions/2026-05-21T20-55/developer.md
+- [2026-05-21] Designer가 제공한 최종 디자인 명세서와 와이어프레임을 기반으로, $197 가격 모델과 권위 강조 전략을 시각적으로 극대화한 시스템 권한 활성화 모달 UI/UX 프로토타입 제작을 즉시 시작하라. → 산출물 sessions/2026-05-21T21-40/developer.md
+- [2026-05-21] event_log_table 기반의 실시간 KPI 추적 및 자동 검증 로직(`event_log_table`)이 데이터 수집에 완벽하게 대응하도록 시스템 안정성을 최종 확인하고, 데이터 수집 환경을 즉시 활성화하라. → 산출물 sessions/2026-05-21T22-10/developer.md
+- [2026-05-21] 최종 디자인 명세서를 기반으로 시스템 권한 활성화 모달 프로토타입 제작을 시작하고, 이벤트 로그(`event_log_table`)의 실시간 추적 및 검증 로직의 안정성을 최종 확인하라. → 산출물 sessions/2026-05-21T22-40/developer.md
+- [2026-05-21] Designer가 제시할 UX/UI 명세를 기반으로, 시스템 내에서 권위 강조 요소(Authority Emphasis)를 시각적으로 극대화하는 프로토타입 구현에 필요한 데이터 구조 및 API 연동 로직을 설계하라. → 산출물 sessions/2026-05-21T23-10/developer.md
+- [2026-05-21] Designer가 제시한 '권위 강조(Authority Emphasis)' UX/UI 명세서 및 데이터 구조 설계(`user_authority`, `session_authority_log`)를 기반으로, 시스템 내에서 권위 강조 요소를 시각적으로 극대화하는 프로토타입 구현에 필요한 백엔드 모듈 개발을 즉시 착수하라. → 산출물 sessions/2026-05-21T23-25/developer.md
+- [2026-05-21] Designer가 제공한 최종 UX/UI 명세서와 데이터 구조(`user_authority`, `session_authority_log`)를 기반으로, 시스템 내 권위 강조 요소를 시각적으로 극대화하는 프로토타입 구현에 필요한 백엔드 모듈 개발을 즉시 착수하라. → 산출물 sessions/2026-05-21T23-55/developer.md
+- [2026-05-22] Designer가 제공한 최종 UX/UI 명세서와 데이터 구조(`user_authority`, `session_authority_log`)를 기반으로, 시스템 내 권위 강조 요소(Authority Emphasis)를 시각적으로 극대화하는 백엔드 모듈 구현을 즉시 시작하라. → 산출물 sessions/2026-05-22T00-10/developer.md
+- [2026-05-22] Designer가 제공한 'Authority Emphasis' UI/UX 명세서와 데이터 구조(`user_authority`, `session_authority_log`)를 기반으로, 시스템 내 권위 강조 요소를 시각적으로 극대화하는 백엔드 모듈 구현을 즉시 시작하고 진행 상황을 보고하라. → 산출물 sessions/2026-05-22T00-25/developer.md
+- [2026-05-22] Authority Emphasis 모듈에 대한 백엔드 모듈 구현을 즉시 완료하고, 시스템 권위 강조 요소가 시각적으로 극대화되도록 최종 검증된 코드를 배포 준비를 하라. → 산출물 sessions/2026-05-22T00-40/developer.md
+- [2026-05-22] Authority-Adjusted CR 계산 로직을 백엔드에 통합하고, 이 결과를 기반으로 KPI 대시보드에 권위별 유지율 차트를 실시간으로 반영하는 기능을 구현한다. → 산출물 sessions/2026-05-22T00-55/developer.md
+- [2026-05-22] 최종 API 연동 코드 구현 작업이 계획대로 진행되고 있는지 확인하고, 다음 단계의 통합 테스트에 필요한 리소스 현황을 보고하라. → 산출물 sessions/2026-05-22T01-10/developer.md
+- [2026-05-22] Authority-Adjusted CR 계산 로직과 권위 강조 모듈의 API 연동 코드가 최종적으로 모든 데이터 흐름에서 오류 없이 작동하는지 통합 테스트를 위한 최종 검증 시나리오 및 테스트 환경 구성을 준비하라. → 산출물 sessions/2026-05-22T01-25/developer.md
+- [2026-05-22] 시나리오 A, B, C에 따른 Authority-Adjusted CR 계산 로직의 통합 테스트를 즉시 실행하고 데이터 파이프라인의 무결성을 최종 확인하라. → 산출물 sessions/2026-05-22T01-40/developer.md
+- [2026-05-22] Designer가 확정한 UI/UX 명세서(Authority Retention Flow)를 기반으로, 권위 강조 모듈의 API 및 DB 연동 코드 통합 테스트에 필요한 최종 요구사항을 점검하고 준비하라. → 산출물 sessions/2026-05-22T02-25/developer.md
+- [2026-05-22] 최종 통합 테스트 결과와 비즈니스 목표를 기반으로, $Retention Rate_{Auth}$ KPI 달성을 위한 Phase 2 개발 리소스 배분 계획 초안을 작성하라. → 산출물 sessions/2026-05-22T02-40/developer.md
+- [2026-05-22] Authority Emphasis에 대한 '권위 강조 트리거 로직'을 초기 Python/Node.js 코드로 구현한다. 이 로직은 $Retention Rate_{Auth}$가 낮은 시나리오를 감지하여 사용자에게 맞춤형 후속 조치를 유도하는 핵심 기능을 포함해야 한다. → 산출물 sessions/2026-05-22T02-55/developer.md
+- [2026-05-22] 권위 강조 모듈의 최종 구현 및 테스트 결과를 바탕으로, $Retention Rate_{Auth}$ 개선에 기여한 핵심 로직의 데이터 무결성을 최종 점검하고 관련 API 응답의 KPI 연동 방식을 확인한다. → 산출물 sessions/2026-05-22T03-25/developer.md
+- [2026-05-22] 권위 강조 트리거 로직의 안정성 검증 및 DB 연동 트랜잭션의 원자성(Atomicity)을 최종적으로 확인하고, $Retention Rate_{Auth}$ 목표와의 연관성을 재확인하여 보고하라. → 산출물 sessions/2026-05-22T03-40/developer.md
+- [2026-05-22] Business가 요구한 KPI(ARL)와 연결되는 API 응답이 $Retention Rate_{Auth}$ 목표와 명확히 연계되도록 로직의 데이터 흐름 및 트랜잭션 안정성을 최종적으로 확인하고 보고하라. → 산출물 sessions/2026-05-22T04-10/developer.md
+- [2026-05-22] 권위 강조 트리거 로직($Threshold$)의 최종 안정성 검증을 완료하고, Module B 구현에 필요한 모든 API 응답과 데이터 흐름의 원자성을 최종적으로 확인하여 시스템 안정성을 확보하라. → 산출물 sessions/2026-05-22T04-40/developer.md
+- [2026-05-22] Business 에이전트가 확정한 $Threshold$($'조합 A'$)에 따른 Phase 2 리소스 배분 계획의 기술적 구현 가능성을 재확인하여 실행 준비를 완료하라. → 산출물 sessions/2026-05-22T04-55/developer.md
+- [2026-05-22] Business가 지시한 $Threshold$('조합 A')에 따른 권위 강조 로직 구현 시, DB 트랜잭션 원자성을 완벽히 보장하는 Validation Layer를 즉시 구현하고 개발을 시작하라. → 산출물 sessions/2026-05-22T05-10/developer.md
+- [2026-05-22] Validation Layer 구현을 기반으로 Phase 2 로직 최적화(Area A) 개발을 즉시 착수하고, $Threshold$('조합 A')에 따른 기능이 시스템 안정성을 보장하는지 최종적으로 검증하라. → 산출물 sessions/2026-05-22T05-25/developer.md
+- [2026-05-22] Business가 확정한 $P_{opt}$ 시뮬레이션 결과와 Designer의 데이터 흐름 명세서를 기반으로, 권위 강조 로직 및 시스템 안정성을 반영한 대시보드 구현을 즉시 시작하라. → 산출물 sessions/2026-05-22T07-55/developer.md
+- [2026-05-22] Business가 확정한 $P_{opt}$ 기반의 권위 강조 로직과 Validation Layer를 반영하여, 시스템 안정성을 보장하는 기능 구현 및 대시보드 데이터 연동을 위한 구체적인 기술 구현 계획을 수립하고 개발을 시작하라. → 산출물 sessions/2026-05-22T08-25/developer.md
+- [2026-05-22] Validation Layer에서 측정된 성공률 데이터와 $P_{opt}$ 시뮬레이션 결과가 KPI에 어떻게 연계되는지에 대한 기술적 검증을 완료하고, 보고서에 필요한 데이터 흐름 명세를 최종 확인하라. → 산출물 sessions/2026-05-22T08-40/developer.md
+- [2026-05-22] Business가 확정한 $P_{opt}$ 기반의 권위 강조 로직과 Validation Layer를 반영하여, 시스템 안정성을 보장하는 기능 구현 및 대시보드 데이터 연동을 위한 구체적인 기술 구현 계획을 수립하고 개발을 시작하라. → 산출물 sessions/2026-05-22T09-10/developer.md
+- [2026-05-22] Writer가 제시한 A/B 테스트 시나리오를 기반으로, 시스템 안정성 지표($	ext{Success Rate}$)와 $P_{opt}$ 결과가 각 그룹별로 어떻게 측정되어야 하는지에 대한 데이터 수집 및 로직 검증 방안을 구체화하라. → 산출물 sessions/2026-05-22T09-25/developer.md
+- [2026-05-22] Validation Layer에서 측정된 성공률 데이터($	ext{Success Rate}_{Group}$)와 $P_{opt}$ 결과를 연동하여 A/B 테스트 결과의 통계적 유의성을 검증하는 데이터 수집 및 로직 구현을 즉시 시작하고, 이 데이터를 대시보드에 연동할 API 준비를 진행하라. → 산출물 sessions/2026-05-22T09-40/developer.md
+- [2026-05-22] Business의 최적 가격($P'_{opt}$) 기반 전략과 기존 시스템 안정성 지표($	ext{ARL}$)를 대시보드에 연동하기 위한 API 데이터 흐름 명세를 최종 확정하고, 이를 반영한 데이터 모델 구현 계획을 수립하라. → 산출물 sessions/2026-05-22T09-55/developer.md
+- [2026-05-22] Business가 요청한 수익화 전략 보고서에 필요한 $	ext{ARL}$ 및 $P'_{opt}$ 연계 데이터를 실시간으로 추출하고, 보고서 작성을 위해 필요한 데이터 흐름 명세를 최종적으로 정리하라. → 산출물 sessions/2026-05-22T10-10/developer.md
+- [2026-05-22] Business가 확정한 KPI 연계성 요구사항($ARL$ 및 $P'_{opt}$ 데이터 연동)을 기반으로, 대시보드에 실시간으로 표시될 데이터 흐름 명세와 API 구현 계획을 최종적으로 확정하고 개발에 착수하라. → 산출물 sessions/2026-05-22T11-12/developer.md
+- [2026-05-22] GitHub Sync 실패 에러(`src refspec main does not match any`)의 원인을 진단하고, 로컬 저장소와 원격 저장소 간의 브랜치 이름을 확인하여 동기화 문제를 해결하는 구체적인 Git 명령어 및 절차를 제시하라. → 산출물 sessions/2026-05-22T11-23/developer.md
+- [2026-05-22] Business팀이 확정한 $ARL$ 및 $P'_{opt}$ 연계 지표를 기반으로, 대시보드에 실시간 표시될 데이터 흐름 명세와 API 구현 계획을 최종적으로 확정하고 개발에 착수하십시오. → 산출물 sessions/2026-05-22T11-42/developer.md
