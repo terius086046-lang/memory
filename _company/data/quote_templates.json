@@ -1,0 +1,14 @@
+{
+  "templates": [
+    {
+      "template_id": "T001",
+      "name": "Standard_Residential_V1",
+      "layout_config": {
+        "style": "Neo-Glassomorphism",
+        "color_palette": ["#FFFFFF", "#E0E0E0", "#4A90E2"],
+        "section_order": ["Overview", "Scope", "Cost Breakdown", "Timeline"]
+      },
+      "line_items": ["CI001", "CI002", "CI003"]
+    }
+  ]
+}

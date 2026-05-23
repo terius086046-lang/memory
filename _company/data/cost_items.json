@@ -1,0 +1,7 @@
+{
+  "cost_items": [
+    {"item_id": "CI001", "category": "Design", "description": "기획 및 설계 비용", "estimated_cost": 500000, "actual_cost": null},
+    {"item_id": "CI002", "category": "Construction", "description": "시공 및 공사비", "estimated_cost": 3000000, "actual_cost": null},
+    {"item_id": "CI003", "category": "Finishing", "description": "마감재 및 인테리어 자재 비용", "estimated_cost": 1500000, "actual_cost": null}
+  ]
+}
