@@ -92,3 +92,8 @@ _Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-05-23] Business에서 확정한 번들 옵션($97$, $BMAR$)과 $ARL$ 측정 기준을 반영하여, 초기 A/B 테스트를 위한 데이터 파이프라인(DB 스키마) 및 API 엔드포인트 설계에 필요한 최종 요구사항을 정리하라. → 산출물 sessions/2026-05-23T04-31/developer.md
 - [2026-05-23] Business가 확정한 DB 스키마 및 API 엔드포인트 설계 요구사항을 기반으로, 초기 A/B 테스트를 위한 데이터 파이프라인(DB 스키마) 및 API 개발 착수를 즉시 시작하라. → 산출물 sessions/2026-05-23T04-46/developer.md
 - [2026-05-23] Business가 확정한 A/B 테스트 시나리오와 KPI 목표를 기반으로, Exit Intent 데이터를 포착하기 위한 DB 스키마 및 API 로직 수정안에 대한 최종 요구사항 명세서를 작성하고 개발 착수를 준비하라. → 산출물 sessions/2026-05-23T05-31/developer.md
+- [2026-05-23] 확정된 DB 스키마 및 API 엔드포인트 명세서를 기반으로, 시스템 안정성($ARL$) 측정 지표를 포함하는 초기 A/B 테스트 데이터 파이프라인(DB 스키마) 및 API 개발 착수를 즉시 시작하라. → 산출물 sessions/2026-05-23T06-01/developer.md
+- [2026-05-23] 데이터 파이프라인 실패 시나리오(Failure Scenario)에 따른 핵심 지표($ARL$, 전환율)의 백업 로깅 테이블 및 모니터링 대시보드 뼈대(Skeleton DB Schema) 설계를 시작하라. → 산출물 sessions/2026-05-23T06-46/developer.md
+- [2026-05-23] 확정된 Skeleton DB Schema(system_health_metrics, user_events_log 포함)를 기반으로 시스템 안정성($ARL$) 측정 및 사용자 이벤트 로그를 포함하는 데이터 파이프라인 구현을 즉시 착수하라. → 산출물 sessions/2026-05-23T07-16/developer.md
+- [2026-05-23] Business의 요청에 따라, $ARL$ 지표가 결제 프로세스에 직접 연결되는 최종 KPI 로직 설계안을 기반으로 `user_events_log` 테이블 수정 및 API 로직 구현 착수를 위한 기술적 계획을 수립하라. → 산출물 sessions/2026-05-23T07-31/developer.md
+- [2026-05-23] 확정된 Skeleton DB Schema(system_health_metrics, user_events_log 포함)를 기반으로 시스템 안정성($ARL$) 측정 및 사용자 이벤트 로그를 포함하는 데이터 파이프라인 구현을 즉시 착수하라. → 산출물 sessions/2026-05-23T18-07/developer.md
